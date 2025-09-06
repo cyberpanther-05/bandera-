@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escudo de la República Dominicana Interactivo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Escudo de la República Dominicana</h1>
+        <div class="shield-container">
+            <img src="escudo-2.webp" class="shield-image">
+            <map name="shieldmap">
+                <area shape="poly" coords="20,131, 26,20, 246,20, 246,131, 246,260, 20,260" href="#" alt="Escudo" data-element="shield" title="Haz clic en el escudo">
+                <area shape="poly" coords="120, 50, 160, 50, 160, 100, 120, 100" href="#" alt="Biblia" data-element="bible" title="Haz clic en la Biblia">
+                <area shape="poly" coords="120, 10, 160, 10, 160, 40, 120, 40" href="#" alt="Cruz" data-element="cross" title="Haz clic en la Cruz">
+                <area shape="poly" coords="180, 150, 220, 150, 220, 200, 180, 200" href="#" alt="Ramas de laurel y palma" data-element="laurel_palm" title="Haz clic en las ramas">
+                <area shape="poly" coords="10, 10, 20, 10, 20, 20, 10, 20" href="#" alt="Patria Libertad" data-element="ribbon_top" title="Haz clic en la cinta de arriba">
+                <area shape="poly" coords="10, 270, 20, 270, 20, 280, 10, 280" href="#" alt="Republica Dominicana" data-element="ribbon_bottom" title="Haz clic en la cinta de abajo">
+            </map>
+        </div>
+
+        <div class="description-section" id="description-section">
+            <h2 id="element-title"></h2>
+            <p id="element-description"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
